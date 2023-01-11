@@ -7,9 +7,7 @@ export const returnButtonStructure = (text, data) => [
 export const sendNewLinks = async (title, links, chatId) => {
   await bot.sendMessage(chatId, `${title}`);
 
-  for (const [index, link] of links.entries()) {
-    await bot.sendMessage(chatId, `<a href="${link}">Слайд #${index + 1}</a>`, {
-      parse_mode: "HTML",
-    });
+  for (const image of links) {
+    await bot.sendPhoto(chatId, `./images/${image}.png`)
   }
 };

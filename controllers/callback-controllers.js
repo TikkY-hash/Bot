@@ -16,7 +16,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "1. О компании",
         [
-          "https://drive.google.com/file/d/1wYqtRSBur4dHKhfEh8abvahiC7M_Jc2r/view?usp=share_link",
+          data,
         ],
         chatId
       );
@@ -26,7 +26,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "2. Первый рабочий день нового сотрудника",
         [
-          "https://drive.google.com/file/d/1puV6wGqsguHEPLZzf8E9ACL1-3zXLC4W/view?usp=share_link",
+          "2",
         ],
         chatId
       );
@@ -39,7 +39,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "1.1 История компании",
         [
-          "https://drive.google.com/file/d/1OiBDZaNd4keaNXqnJxdrrFC3cofPkz3x/view?usp=share_link",
+          data,
         ],
         chatId
       ),
@@ -47,7 +47,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "1.2 Миссия компании",
         [
-          "https://drive.google.com/file/d/1W1xFXF2g5zzNNLd9kw-hUXHl1-XPAaE9/view?usp=share_link",
+          "1.6",
         ],
         chatId
       ),
@@ -55,7 +55,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "1.3 Цели компании",
         [
-          "https://drive.google.com/file/d/1fe1C0hHirLDOvs1mDSDyQ2Q2kHpArQ6e/view?usp=share_link",
+          "1.7",
         ],
         chatId
       ),
@@ -63,7 +63,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "1.4 Принципы и традиции компании",
         [
-          "https://drive.google.com/file/d/1uIrrbGntihdkvFz1hl8RNoXQiNaT-jP-/view?usp=share_link",
+          "1.8",
         ],
         chatId
       ),
@@ -71,9 +71,9 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "1.5 Наши сотрудники",
         [
-          "https://drive.google.com/file/d/158ASyWL2c-MFKkwAPnPain_op6Ct6CCn/view?usp=share_link",
-          "https://drive.google.com/file/d/1jOoXwuI8PI595rc0DOX4f7BU-m5D1hAC/view?usp=share_link",
-          "https://drive.google.com/file/d/1hLXGJKRmJcsNZl0zXasYSIzZBT9htClJ/view?usp=share_link",
+          "1.9",
+          "1.10",
+          "1.11",
         ],
         chatId
       ),
@@ -81,8 +81,8 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "1.6 Структура компании",
         [
-          "https://drive.google.com/file/d/18hc-SA9yoGhExqaMW1Co1vveE-nQpJBe/view?usp=share_link",
-          "https://drive.google.com/file/d/1l2jtCw4b_I98pcL_-15sTCwrHoKMlfTW/view?usp=share_link",
+          "1.12",
+          "1.13",
         ],
         chatId
       ),
@@ -90,8 +90,8 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "1.7 Динамика роста компаниии",
         [
-          "https://drive.google.com/file/d/1ngoWsUhOEw9amA5wZmiLagh8D7KUYsSq/view?usp=share_link",
-          "https://drive.google.com/file/d/1ISTrk-Bgh392k0zhB4PiHyIsi1DDJVQB/view?usp=share_link",
+          "1.2",
+          "1.3",
         ],
         chatId
       ),
@@ -99,7 +99,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "1.8 Карта сотрудников компании",
         [
-          "https://drive.google.com/file/d/1hFOAdsQLjJEhwf7GtxBb532xmQkrOl2Y/view?usp=share_link",
+          "1.5",
         ],
         chatId
       ),
@@ -107,7 +107,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "1.9 Карта клиентов компании",
         [
-          "https://drive.google.com/file/d/1vH699KnIHpFCG8TF1gd2VdmaOXzQEb4I/view?usp=share_link",
+          "1.4",
         ],
         chatId
       ),
@@ -115,7 +115,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "2.1 Настройка доступов",
         [
-          "https://drive.google.com/file/d/1gFWWQ_vKXFVCZstT3VxYW_bXHdPzsGYP/view?usp=share_link",
+          "2.7",
         ],
         chatId
       ),
@@ -123,8 +123,8 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "2.2 Сервисы компании",
         [
-          "https://drive.google.com/file/d/1_ethGrWtGzu8qDza4-nr6F-KaYnrSy6y/view?usp=share_link",
-          "https://drive.google.com/file/d/161Em6ORgVlI-ckeUYKWa17iCmZ0SAtXE/view?usp=share_link",
+          "2.1",
+          data,
         ],
         chatId
       ),
@@ -132,8 +132,8 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "2.3 Правила для сервисов компании",
         [
-          "https://drive.google.com/file/d/1qyfIjFIHYkhys2xaBN1v1-rcMF90cv3k/view?usp=share_link",
-          "https://drive.google.com/file/d/17mm9UT5Y8D7m_9op_vd9c3FwemM24euE/view?usp=share_link",
+          data,
+          "2.4",
         ],
         chatId
       ),
@@ -141,8 +141,8 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "2.4 Слак-чаты для руководителей отделов",
         [
-          "https://drive.google.com/file/d/1p37WSGHqqf6Q0khHA77TnIJKX5kTqpzh/view?usp=share_link",
-          "https://drive.google.com/file/d/1ocvd3SJtylJkNgSa2C9UhAt3vk1iRGNp/view?usp=share_link",
+          "2.5",
+          "2.6",
         ],
         chatId
       ),
@@ -150,7 +150,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "2.5 Распорядок первого рабочего дня",
         [
-          "https://drive.google.com/file/d/1El9ke_ihqgB5sg6nCH6zWupmWShVW438/view?usp=share_link",
+          "2.8",
         ],
         chatId
       ),
@@ -158,7 +158,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "2.6 Типичный график работы сотрудника компании",
         [
-          "https://drive.google.com/file/d/1FiqQ2pK9dyPpZXDweISjUDRAaBtyhAwo/view?usp=share_link",
+          "2.9",
         ],
         chatId
       ),
@@ -166,7 +166,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "3. Инструкции по организации работы",
         [
-          "https://drive.google.com/file/d/128NQdjuy80ASMNgjpgwOw2Lkzx-qGz82/view?usp=share_link",
+          data,
         ],
         chatId
       ),
@@ -174,7 +174,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "4. Контактные лица компании",
         [
-          "https://drive.google.com/file/d/1sIh5Z0V8ZT4Uwu1OmqzjxflzoA6iMrLI/view?usp=share_link",
+          data,
         ],
         chatId
       ),
@@ -182,8 +182,8 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "5.1 Правила для сотрудников",
         [
-          "https://drive.google.com/file/d/1rBC_4drvc_nZuitLocsLfbxUvy--nkI9/view?usp=share_link",
-          "https://drive.google.com/file/d/1P111janILp4Ep5b2wl-L76TCn04C0VMi/view?usp=share_link",
+          data,
+          "5.2",
         ],
         chatId
       ),
@@ -191,7 +191,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "5.2 У нас НЕ принято",
         [
-          "https://drive.google.com/file/d/19e61evbo2sqzvvEU2-iagHmIx5a8VcQf/view?usp=share_link",
+          "5.3",
         ],
         chatId
       ),
@@ -199,9 +199,9 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "6. Грейды и квалификация сотрудников",
         [
-          "https://drive.google.com/file/d/1oQiP0mPoesF00BLyff-_3zGguSgiDy5g/view?usp=share_link",
-          "https://drive.google.com/file/d/1vFC0d6BgFUz1DzeJ0mh9BfnraqcFsBxo/view?usp=share_link",
-          "https://drive.google.com/file/d/19JSd7Pzc9ebS5Jb1PNaT9I27qAJEW2uW/view?usp=share_link",
+          "6.1",
+          "6.2",
+          "6.3",
         ],
         chatId
       ),
@@ -209,7 +209,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "7. Образование и развитие",
         [
-          "https://drive.google.com/file/d/1jV-M9AZG32SFWh_MmWkxP4QdcdzAnGUn/view?usp=share_link",
+          data,
         ],
         chatId
       ),
@@ -217,7 +217,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "8. Бенефиты для сотрудников",
         [
-          "https://drive.google.com/file/d/1w-tfTrqqlno9Fl49FNiJlLtvbdUi9qZT/view?usp=share_link",
+          data,
         ],
         chatId
       ),
@@ -225,7 +225,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "9. Отпуска и больничные",
         [
-          "https://drive.google.com/file/d/12YBLEGeFAS3reNcRllMPh5RD3E2FiDyO/view?usp=share_link",
+         data,
         ],
         chatId
       ),
@@ -233,7 +233,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "10. График работы. Выходные и праздники",
         [
-          "https://drive.google.com/file/d/1pVo7I53hUqDMU0BIYWfJGKFAI4r_KmXI/view?usp=share_link",
+          data,
         ],
         chatId
       ),
@@ -241,7 +241,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "11. Командировки",
         [
-          "https://drive.google.com/file/d/17Lgrx06QNZAwcd-QVWY18VfKyYvKULc6/view?usp=share_link",
+          data,
         ],
         chatId
       ),
@@ -249,7 +249,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "12. Релокейт",
         [
-          "https://drive.google.com/file/d/17Lgrx06QNZAwcd-QVWY18VfKyYvKULc6/view?usp=share_link",
+          "11",
         ],
         chatId
       ),
@@ -257,7 +257,7 @@ export const checkCallback = async (msg) => {
       await sendNewLinks(
         "13. Работа из дому",
         [
-          "https://drive.google.com/file/d/1M6w_NIHS0H2jXLkdfXnmDSa2ygJrJWoI/view?usp=share_link",
+          data,
         ],
         chatId
       ),

@@ -1,7 +1,9 @@
+process.env["NTBA_FIX_350"] = 1;
+
 import * as dotenv from "dotenv";
 dotenv.config();
 
-import { checkMessage} from "./controllers/message-controllers.js";
+import { checkMessage } from "./controllers/message-controllers.js";
 import { checkCallback } from "./controllers/callback-controllers.js";
 
 import TelegramApi from "node-telegram-bot-api";
